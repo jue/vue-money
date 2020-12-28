@@ -1,6 +1,14 @@
 <template>
   <div id="app">
-    <Money v-model="price" clearable placeholder="请输入金额" />
+    <el-form>
+      <el-form-item label="金额">
+        <Money v-model="price" clearable placeholder="请输入金额" />
+      </el-form-item>
+      <el-form-item label="实际值">
+        {{price}}
+      </el-form-item>
+    
+    </el-form>
   </div>
 </template>
 
@@ -24,8 +32,9 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 60px auto;
+  max-width: 750px;
+
 }
 </style>
