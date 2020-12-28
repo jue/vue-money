@@ -1,24 +1,6 @@
-# vue-money
+# 基于Element UI的金额输入组件
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 主要功能
+1. 仅输入整型和浮点型
+2. 只能输入小数点后两位
+3. 输入显示单位元，实际值单位分（数据库单位是分）
